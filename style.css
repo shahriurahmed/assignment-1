@@ -4,7 +4,7 @@ body {
   margin-top: 70px;
 }
 section {
-  margin: 10px 100px;
+  margin: 10px 250px;
 }
 .make-flexible {
   display: flex;
@@ -18,6 +18,10 @@ h1 {
 /*for vertical line*/
 .v-line {
   border-left: 5px solid navy;
+  padding: 0px;
+}
+.v-line h1 {
+  margin: 0px;
 }
 #name-color {
   color: tomato;
@@ -26,13 +30,36 @@ h1 {
 p {
   text-align: justify;
   line-height: 20px;
-  font-size: 13px;
+  font-size: 14px;
 }
 #spacep {
   padding-bottom: 10px;
 }
 .standard-width {
   width: 50%;
+}
+
+.standard-width1 {
+  width: 33%;
+}
+.standard-width2 {
+  width: 67%;
+  padding-top: 40px;
+}
+
+.standard-width3 {
+  width: 33%;
+  padding-top: 40px;
+}
+
+.standard-width2 h2 {
+  font-size: 40px;
+  margin: 3px;
+}
+
+.standard-width2 p {
+  font-size: 15px;
+  margin: 0px;
 }
 
 #p-img {
@@ -42,6 +69,14 @@ p {
   text-decoration: none;
   background-color: navy;
   padding: 10px 50px;
+  color: white;
+  border-radius: 5px;
+}
+
+.big-button-design {
+  text-decoration: none;
+  background-color: navy;
+  padding: 10px 100px;
   color: white;
   border-radius: 5px;
 }
@@ -55,6 +90,9 @@ p {
   font-weight: 400;
 }
 
+#cspace {
+  padding-top: 50px;
+}
 .skills {
   padding: 25px;
 
@@ -68,7 +106,7 @@ p {
 }
 
 .skills p {
-  font-size: 11px;
+  font-size: 15px;
 }
 #graphic {
   background-color: lightyellow;
