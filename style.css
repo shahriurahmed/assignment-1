@@ -23,7 +23,7 @@ h1 {
 .v-line h1 {
   margin: 0px;
 }
-#name-color {
+.name-color {
   color: tomato;
 }
 
@@ -37,6 +37,9 @@ p {
 }
 .standard-width {
   width: 50%;
+}
+#fspace {
+  margin-top: 150px;
 }
 
 .standard-width1 {
@@ -113,4 +116,22 @@ p {
 }
 #programming {
   background-color: #feeeee;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: black;
+  color: white;
+}
+#alignmentp {
+  text-align: center;
+}
+#missionfooter {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+.centeri {
+  padding-left: 37%;
 }
