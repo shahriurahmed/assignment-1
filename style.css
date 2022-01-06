@@ -4,8 +4,10 @@ body {
   margin-top: 70px;
 }
 section {
-  display: flex;
   margin: 10px 100px;
+}
+.make-flexible {
+  display: flex;
 }
 
 h1 {
@@ -24,7 +26,10 @@ h1 {
 p {
   text-align: justify;
   line-height: 20px;
-  font-size: 15px;
+  font-size: 13px;
+}
+#spacep {
+  padding-bottom: 10px;
 }
 .standard-width {
   width: 50%;
@@ -39,4 +44,35 @@ p {
   padding: 10px 50px;
   color: white;
   border-radius: 5px;
+}
+.titlecenter {
+  text-align: center;
+  font-size: 45px;
+}
+
+#space {
+  padding-top: 15px;
+  font-weight: 400;
+}
+
+.skills {
+  padding: 25px;
+
+  border-radius: 5px;
+
+  margin: 12px;
+}
+
+#web {
+  background-color: #eef6f7;
+}
+
+.skills p {
+  font-size: 11px;
+}
+#graphic {
+  background-color: lightyellow;
+}
+#programming {
+  background-color: #feeeee;
 }
